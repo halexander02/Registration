@@ -3,3 +3,23 @@
 /* Name: Hayleigh Alexander
     Assignment: Responsive Form
     Filename: styles.css */
+
+.container{
+    margin:auto;
+    width: 80%;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    display: block;
+    padding-bottom: 5px; 
+    position: relative;
+}
+input{
+    position: absolute; left: 15%
+}
