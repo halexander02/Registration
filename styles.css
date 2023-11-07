@@ -14,7 +14,8 @@ html{
     margin:auto;
     width: 80%;
     padding: 25px;
-    border-radius: white 5px;
+    border-radius: 5px;
+    border-color: white;
 }
 
 h1{
