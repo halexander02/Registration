@@ -4,11 +4,17 @@
     Assignment: Responsive Form
     Filename: styles.css */
 
+html{
+    background-color: #3a7ca5;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .container{
     margin:auto;
     width: 80%;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: white 5px;
 }
 
 h1{
@@ -28,3 +34,5 @@ input{
     width: initial;
     position: initial;
 }
+
+
