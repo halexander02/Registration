@@ -14,19 +14,24 @@
 <body>
     <h1>Registration Form</h1>
     <div class="container">
-      <form>
-        <label for="fname">
-            Name: <input autofocus type="text" name="fname" id="fname" required placeholder="First Name"/>
-        </label>
-        <label for="lname">
-            Last Name:
-            <input type="text" name="lname" id="lname" required placeholder="Last Name" />
-        </label>
-        <label for="email">
-            Email:
-            <input type="email" name="email" id="email" required placeholder="Email" />
-        </label>
-        <input type="submit" value="Submit" />
+      <form method="post" action="thankyou.html">
+        <fieldset>
+            <legend>
+                Contact Information
+            </legend>
+            <label for="fname">
+                Name: <input autofocus type="text" name="fname" id="fname" required placeholder="First Name"/>
+            </label>
+            <label for="lname">
+                Last Name:
+                <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+            </label>
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email" required placeholder="Email" />
+            </label>
+        </fieldset>
+        <input class="submit" type="submit" value="Submit" />
         </form>  
     </div>
 </body>
